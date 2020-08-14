@@ -7,7 +7,7 @@
  The buttons from upper right corner works like a filter that arrange the results in ascendent/descendent order of the cases/deaths. 
  
  Hero Page:
- ![Hero](./Images/hero.png)
+ ![Hero](./Images/Front-page.png)
  
  ![countys](./Images/one.png)
  
