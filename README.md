@@ -9,8 +9,8 @@
  Hero Page:
  ![Hero](./Images/Front-page.png)
  
- ![countys](./Images/one.png)
+ ![county](./Images/one.png)
  
- ![countys](./Images/two.png)
+ ![county](./Images/two.png)
  
- ![countys](./Images/three.png)
+ ![county](./Images/three.png)
