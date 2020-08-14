@@ -1,0 +1,6 @@
+<div class="container">
+    <div class="shape"></div>
+    <app-filter></app-filter>
+    <app-country *ngFor="let country of countrys" [country]="country" (addAbout)="addAbout($event)" (openWindow)="openWindow($event)"></app-country>
+    <app-about-country [aboutElement]="aboutElement" [open]="open" (close)="closeWindow($event)"></app-about-country>
+</div>

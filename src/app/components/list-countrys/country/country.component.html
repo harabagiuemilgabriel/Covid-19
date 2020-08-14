@@ -1,0 +1,9 @@
+<div class="country-container">
+    <img src="{{country.countryInfo.flag}}" class="clip-circle">
+    <p class="name">{{ country.country }}</p>
+    <p class="today-cases">Today cases</p>
+    <p class="today-cases-number">{{ country.todayCases }}</p>
+    <p class="today-deaths">Today deaths</p>
+    <p class="today-deaths-number">{{ country.todayDeaths }}</p>
+    <button class="more" (click)="CreateAbout(this)">Find more about {{ country.country }}</button>
+</div>

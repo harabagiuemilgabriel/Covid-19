@@ -1,0 +1,60 @@
+<div *ngIf="aboutElement" class="about-container">
+    <div class="cover" [ngClass]="openWindow()">
+        <div class="frame">
+            <div class="shape-corner"></div>
+            <button class="close-button" (click)="closeWindow()">X</button>
+            <div class="fst-row">
+                <div class="update">update: {{ aboutElement.updated }}</div>
+                <div class="country-name">{{ aboutElement.country }}</div>
+                <img src="{{ aboutElement.countryInfo.flag }}" alt="">
+                <div class="cs-today">
+                    <p class="label">Cases Today</p>
+                    <p class="number">{{ aboutElement.todayCases }}</p>
+                </div>
+                <div class="dths-today">
+                    <p class="label">Deaths Today</p>
+                    <p class="number">{{ aboutElement.todayDeaths }}</p>
+                </div>
+            </div>
+            <div class="scd-row">
+                <div class="left-column">
+                    <div class="align">
+                        <div class="cnt">
+                            <div class="label">Total Cases</div>
+                            <p>{{ aboutElement.cases }}</p>
+                        </div>
+                        <div class="cnt">
+                            <div class="label">Total Deaths</div>
+                            <p>{{ aboutElement.deaths }}</p>
+                        </div>
+                        <div class="cnt">
+                            <div class="label">Total Recovered</div>
+                            <p>{{ aboutElement.recovered }}</p>
+                        </div>
+                        <div class="cnt">
+                            <div class="label">Today Recovered</div>
+                            <p>{{ aboutElement.todayRecovered }}</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="right-column">
+                    <div class="align">
+                        <div class="cnt">
+                            <div class="label">Activ Cases</div>
+                            <p>{{ aboutElement.active }}</p>
+                        </div>
+                        <div class="cnt">
+                            <div class="label">Critical Cases</div>
+                            <p>{{ aboutElement.critical }}</p>
+                        </div>
+                        <div class="cnt">
+                            <div class="label">Tests</div>
+                            <p>{{ aboutElement.tests }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

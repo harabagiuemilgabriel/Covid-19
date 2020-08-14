@@ -1,0 +1,11 @@
+<div class="filter-container">
+    <p class="search-country"> Search by country name </p>
+    <input type="text" [(ngModel)]="name" (input)="SearchByName()">
+
+    <div class="filters">
+        <button (click)="filterByCasesToday()">Cases Today</button>
+        <div class="" ></div>
+        <button (click)="filterByDeathsToday()">Deaths Today</button>
+        <div class="" ></div>
+    </div>
+</div>

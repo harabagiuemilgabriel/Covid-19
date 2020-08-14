@@ -1,0 +1,40 @@
+.hero-page
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #262626;
+}
+.planet-img
+{
+    opacity: .1;
+    width: 60vw;
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+
+.hero-title
+{
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    transform: translate(-50%,-50%);
+    font-size: 7vw;
+    font-weight: 600;
+    width: fit-content;
+    color:#EE4A4A;
+}
+.subtitle{
+    position: absolute;
+    top:60vh;
+    left:50vw;
+    transform: translate(-50%,-50%);
+    font-size: 1.5vw;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: .5;
+    width: fit-content;
+    color:#EE4A4A;
+}

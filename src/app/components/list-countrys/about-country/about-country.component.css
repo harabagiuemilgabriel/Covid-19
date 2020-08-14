@@ -1,0 +1,167 @@
+.cover
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    color: green;
+    background-color:rgba(0, 0, 0, 0.465);
+    z-index: 3;
+}
+
+.open-window
+{
+    display: block;
+}
+.closed-window
+{
+    display: none;
+}
+
+.frame
+{
+    position: relative;
+    width: 60vw;
+    height: 70vh;
+    background-color:#E9E9E9;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border:none;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.fst-row
+{
+    flex:1;
+}
+
+.update
+{
+    color:#E9E9E9;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+
+img
+{
+    position: relative;
+    left:20%;
+    border-radius: 5px;
+    border:3px solid #E9E9E9;
+    transform: translateX(-50%);
+}
+
+.country-name
+{
+    position: relative;
+    top:65%;
+    left:12.5%;
+    color:#E9E9E9;
+    font-size: 1.2vw;
+    font-weight: 800;
+}
+
+.cs-today,.dths-today
+{
+    position: relative;
+    left:10%;
+    top:40%;
+    margin-bottom: 30px;
+    font-size: 1vw;
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+.cs-today .label,.dths-today .label
+{
+    color:#E9E9E9;
+}
+.cs-today .number,.dths-today .number
+{
+    font-size: 1.2vw;
+    color:#EE4A4A;
+    text-align: center;
+}
+
+.scd-row
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column,.right-column
+{
+    flex:1;
+}
+
+.align
+{
+    position: relative;
+    width: 80%;
+    top:-80%;
+    left:80%;
+    transform: translate(-50%,-50%);
+}
+
+.cnt
+{
+    margin:10px 0;
+    text-align: center;
+}
+.label
+{
+    font-size: 1.2vw;
+    color:rgba(0, 0, 0, 0.527);
+    font-weight: 600;
+}
+
+.cnt p
+{
+    color:#EE4A4A;
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.close-button
+{
+    height: 50px;
+    width: 50px;
+    color:white;
+    position: absolute;
+    left:92%;
+    top:30px;
+    background-color:#EE4A4A;
+    border:none;
+    border-radius: 50%;
+    transition: .25s ease;
+    cursor: pointer;
+}
+.close-button:hover
+{
+    transform: scale(1.1);
+    background-color:#f14040;
+}
+.close-button:focus
+{
+    outline:none;
+}
+
+.shape-corner
+{
+    height: 1000px;
+    width: 1000px;
+    background-color:#262626;
+    position: absolute;
+    left:0;
+    top:0;
+    transform: translate(-30%,-30%);
+    border-radius: 50%;
+}
